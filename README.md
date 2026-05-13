@@ -21,6 +21,7 @@ EduPulse One helps schools, teachers, parents, and students manage academic reco
    - Login using a unique ID + password.
    - Account linked to parent email/phone.
    - View results and student progress.
+   - Receive student results by SMS and/or email.
 4. **Developer Support Role**
    - Restricted troubleshooting access.
    - Default credentials can exist only in development mode and must be rotated/disabled in production.
@@ -32,6 +33,7 @@ EduPulse One helps schools, teachers, parents, and students manage academic reco
 - Score entry + editing by authorized teachers.
 - Result computation and printable report forms for administration.
 - Activity logs for sensitive operations.
+- Automated result delivery to parent contacts via SMS and/or email.
 
 ## UI/UX and Performance Targets
 - Mobile-first responsive layout.
@@ -72,6 +74,8 @@ EduPulse One helps schools, teachers, parents, and students manage academic reco
 - `teacher_assignments`
 - `results`
 - `attendance`
+- `notifications`
+- `notification_logs`
 - `audit_logs`
 
 ## Next Build Milestones
@@ -79,7 +83,8 @@ EduPulse One helps schools, teachers, parents, and students manage academic reco
 2. Implement authentication + role guards.
 3. Build dashboards per role.
 4. Add score entry and report generation.
-5. Add audit logs and system health dashboard.
+5. Add SMS/email result notification service for parents.
+6. Add audit logs and system health dashboard.
 
 ## Project Status
 ✅ Project initiated with baseline requirements and architecture direction.
